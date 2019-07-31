@@ -2,9 +2,15 @@
 
 {% block title %}Portada {% endblock %}
 
-{% block content %}
-<h2>Bienvenidos</h2>
+{% load static %}
 
-<p>Esto es la portada.</p>
+{% block background %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{%block headers%}
+<h1>Pablo Feijo</h1>
+<span class="subheading">Analista de Sistemas</span>
+{% endblock %}
+
+{% block content %}
 
 {% endblock %}
