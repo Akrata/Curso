@@ -1,5 +1,11 @@
 {
     "python.pythonPath": "C:\\Miniconda3\\envs\\py37\\python.exe",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--load-plugins",
+        "pylint_django"
+
+    ]
 }
