@@ -26,6 +26,8 @@ urlpatterns = [
     path('services/', include('services.urls')),
     #path del blog
     path('blog/', include('blog.urls')),
+    #path del pages
+    path('page/', include('pages.urls')),
 ]
 
 if settings.DEBUG:
