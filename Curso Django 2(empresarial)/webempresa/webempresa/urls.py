@@ -35,3 +35,10 @@ urlpatterns = [
 if settings.DEBUG:
     from django.conf.urls.static import static
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+# Admin edit
+
+admin.site.site_header = "La Caffetiera"
+admin.site.index_title = "Panel de control"
+admin.site.site_title = "La Caffetiera"
