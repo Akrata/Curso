@@ -28,6 +28,8 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     #path del pages
     path('page/', include('pages.urls')),
+     #path del contact
+    path('contact/', include('contact.urls')),
 ]
 
 if settings.DEBUG:
